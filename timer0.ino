@@ -2,6 +2,7 @@
   Configuracao do timer 0
 */
 
+//flag necessária para disabilitar no wiring.c o código que seta o timer 0
 #define _DISABLE_ARDUINO_TIMER0_INTERRUPT_HANDLER_
 #include <wiring.c>
 #include <avr/io.h>
